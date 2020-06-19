@@ -15,6 +15,7 @@ public class Impl {
 
     @PostConstruct
     public void run() {
+//        System.out.println(configProperties.getFirstName());
         System.out.println(configProperties.getHostName());
     }
 
